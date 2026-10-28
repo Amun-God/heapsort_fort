@@ -20,6 +20,6 @@ program main
     j=j+1
     call heapify(arr,1,n-j)
   enddo
-  print *,arr
+  print *,'sorted array : ',arr
 
 end program main
